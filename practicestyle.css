@@ -1,0 +1,66 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+#wapper{
+	width: 215px;
+	background-color: #FFC77F;
+	position:absolute;
+		top:8%;
+		left:50%;
+		margin-top:-75px;
+		margin-left:-115px;
+		border-radius:10px;
+}
+
+
+#header{
+	padding: 10px 15px 10px 35px;
+    background-color: rgba(158, 212, 49, 0.66);
+    border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+#content{
+	font-family: "微軟正黑體";
+    font-size: 20px;
+    padding: 10px 0px 2px 30px;
+    text-align: center;
+    letter-spacing: 25px;
+}
+
+.content1{
+	padding: 10px 15px 20px 15px;
+    font-size: 18px;
+    font-family: "微軟正黑體";
+    letter-spacing: 1px;
+}
+/*<table>
+ 	<tr>
+ 		<td>
+ 			<h2>
+ 				PHP寒訓名單
+ 			</h2>
+ 			<?php 
+ 				echo '<tr>';
+ 				echo '<td>';
+ 				echo '學號';
+ 				echo '<td>';
+ 				echo '姓名';
+ 			 ?>
+ 		</td>
+ 	</tr>
+ 	<tr>
+ 		<td>
+ 			<?php 
+ 				for ($i=0; $i<count($sid);$i++){ 
+ 					echo '<tr>';
+ 					for ($j=0; $j<count($sid[$i]);$j++){ 
+ 						echo '<td>';
+ 						echo $sid[$i][$j];
+ 					}
+ 				}
+ 			 ?>
+ 		</td>
+ 	</tr>
+ </table>*/
